@@ -10,12 +10,12 @@ add_filter( 'woocommerce_default_catalog_orderby_options', 'custom_woocommerce_c
 add_filter( 'woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby' );
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
 
-function wc_ninja_remove_password_strength() {
+function cpacc_remove_password_strength() {
  if ( wp_script_is( 'wc-password-strength-meter', 'enqueued' ) ) {
  wp_dequeue_script( 'wc-password-strength-meter' );
  }
 }
-add_action( 'wp_print_scripts', 'wc_ninja_remove_password_strength', 100 );
+add_action( 'wp_print_scripts', 'cpacc_remove_password_strength', 100 );
 
 function woo_custom_cart_button_text() {
 
