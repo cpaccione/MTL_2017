@@ -1,0 +1,41 @@
+.single-product {
+  margin-top: 100px;
+}
+.container.margin-top
+{
+	margin-top: 70px;
+}
+.page-template-cart-template #coupon_code {
+  margin: 0 10px 0 0;
+  min-height: 43px;
+  width:150px;
+}
+.page-template-checkout-template input {
+  width: auto;
+}
+input[type="text"], input[type="email"], input[type="tel"] , input[type="password"] {
+  min-height: 40px !important;
+  padding: 10px;
+}
+.woocommerce form .form-row textarea
+{
+	padding: 10px;
+}
+.woocommerce-account {
+  margin-top: 100px;
+}
+.woocommerce-account input
+{
+	width:auto;
+}
+.woocommerce .quantity .qty
+{
+	height: 2.3em;
+}
+.min-height
+{
+	min-height: 563px;
+}
+
+
+.label {color:#000 !important;}
