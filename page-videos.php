@@ -43,7 +43,7 @@ $countertwo = 0;
 						<!-- YouTube iframe. -->
 						<!-- note the iframe src is empty by default, the url is in the data-src="" argument -->
 						<!-- also note the arguments on the url, to autoplay video, remove youtube adverts/dodgy links to other videos, and set the interface language -->
-						<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/ePv_RxG6sag?autoplay=1"></iframe>
+						<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/zxaTQKy-2jI?autoplay=1"></iframe>
 						<!-- the poster frame - in the form of a button to make it keyboard accessible -->
 						<button class="videoPoster js-videoPoster" style="background-image:url(<?php bloginfo('template_directory');?>/images/Nashville_Music_Image.png);">Play video</button>
 					</div>
@@ -88,7 +88,7 @@ $countertwo = 0;
 		 <div class="row text-center">
       <div class="col-xs-12">
         <div class="button-wrap">
-            <a href="https://www.youtube.com/channel/UChiB1DVDNSRu-NSMDSxSFag" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block active">VISIT YOUTUBE</button></a>
+            <a href="https://www.youtube.com/channel/UCrw9SJFQDeSvKRNdJnl3Jiw/videos" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block active">VISIT YOUTUBE</button></a>
         </div>
       </div>
     </div>
